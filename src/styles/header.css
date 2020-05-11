@@ -1,0 +1,66 @@
+
+.container{
+    margin-top: 2%;
+    box-sizing: content-box;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer{
+    width: 100%;
+    background-image: url('../ImgsPortfolio/nodos.png');
+}
+
+.coverPage{
+    background-color: #D9F6F5;
+    width: 90%;
+    border: solid #5B6DCD 3px;
+    border-color: #DC3A3A;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+h1{
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.Im{
+    text-align: center;
+}
+.front{
+    margin-left: 60%;
+}
+.dev{
+    text-align: end;
+}
+
+.btns{
+    box-sizing: content-box;
+    width: 3%;
+    align-self: baseline;
+    
+}
+
+.imgLinkedin{
+    background-color: #FF8181;
+    width: 100%; height: 100%;
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+.imgGithub{
+    background-color: #FF8181;
+    width: 100%; height: 100%;
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+.imgEmail{
+    background-color: #FF8181;
+    width: 100%; height: 100%;
+    border: solid black 3px;
+    border-radius: 15px;
+
+}

@@ -1,17 +1,3 @@
 body{
-background-color: rgba(13, 13, 155, 0.585);
-}
-
-h1{
-    text-align: center;
-    color: rgb(236, 228, 225);
-    font-style: oblique;
-}
-
-img{
-    width: 200px; height: 250px;
-    border: rgb(255, 255, 255) 10px solid;
-    border-radius: 30px;
-    display:block;
-    margin:auto;
+background-color: #F6E6C6;
 }

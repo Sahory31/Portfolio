@@ -1,16 +1,12 @@
 import React from 'react';
-import photo from './perfil.jpg';
 import './App.css';
+import CoverPage from './components/header.js'
 
-  function App() {
+
+function App() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Hola! Este es el Portfolio de Brenda</h1>
-          <img src={photo}/>
-        </header>
-      </div>
+      <CoverPage />
     );
-  }
+}
   
-  export default App;
+export default App;
