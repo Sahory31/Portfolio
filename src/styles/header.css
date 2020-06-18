@@ -1,66 +1,51 @@
-
+body{
+    background-color: #002001;
+}
 .container{
-    margin-top: 2%;
-    box-sizing: content-box;
-    width: 100%;
+    margin-top: 1%;
+    max-width: 100%;
+    min-width: 30%;
     align-items: center;
     display: flex;
-    justify-content: center;
-}
-
-.imageContainer{
-    width: 100%;
-    background-image: url('../ImgsPortfolio/nodos.png');
-}
-
-.coverPage{
-    background-color: #D9F6F5;
-    width: 90%;
-    border: solid #5B6DCD 3px;
-    border-color: #DC3A3A;
-    padding: 5px;
-    border-radius: 15px;
-}
-
-h1{
-    font-family: 'Cabin Sketch', cursive;
-}
-
-.Im{
-    text-align: center;
-}
-.front{
-    margin-left: 60%;
-}
-.dev{
-    text-align: end;
-}
-
-.btns{
-    box-sizing: content-box;
-    width: 3%;
-    align-self: baseline;
+    justify-content: left;
     
 }
 
-.imgLinkedin{
-    background-color: #FF8181;
-    width: 100%; height: 100%;
-    border: solid black 3px;
+.coverPage{
+    background-color: #002001;
+    padding: 5px;
+    min-width: 30%;
+    max-width: 100%;
     border-radius: 15px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+    line-height:0.5;
 }
 
-.imgGithub{
-    background-color: #FF8181;
-    width: 100%; height: 100%;
-    border: solid black 3px;
-    border-radius: 15px;
+.hello{
+    font-size: 6vw;
+    font-family: 'Londrina Solid', cursive;
+    line-height: 0.5;
+    color: white;
 }
 
-.imgEmail{
-    background-color: #FF8181;
-    width: 100%; height: 100%;
-    border: solid black 3px;
-    border-radius: 15px;
+h2{
+    font-size: 10vw;
+    font-family: 'Londrina Solid', cursive;
+    line-height:1;
+    color: white;
+}
 
+h3{
+    font-size: 5vw;
+    font-family: 'Londrina Solid', cursive;
+    line-height:0.5;
+    color: white;
+}
+
+
+img{
+    width: 18%;
+    border-radius: 100%;
+    margin-right: 5%;
+    border: rgb(255, 255, 255) 6px solid;
 }
