@@ -5,12 +5,12 @@
     height: auto;
     align-items: center;
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 240, 234);
     font-family: 'Londrina Solid', cursive;
     display: inline-block;
 }
 
-.description{
+.description, .technologies{
     max-width: 60%;
     margin-left: 10%;
 }
@@ -22,11 +22,21 @@ h1{
     font-size: 5vw;
 }
 
+.Laboratoria, .unadm{
+    color: rgb(131, 22, 2);
+    line-height: 3;
+}
+
 p{
     font-size: 2vw;
+    line-height: 1;
 }
 
 .education{
     max-width: 60%;
     margin-left: 10%;
+}
+
+p{
+    color: rgb(2, 26, 26);
 }
