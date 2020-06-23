@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
@@ -11,8 +12,7 @@ import ContactMailIcon from '@material-ui/icons/ContactMail';
 const useStyles = makeStyles({
     root: {
       width: '100%',
-      color: 'blue',
-      height: 80,
+      height: '10%',
       backgroundColor:'#002001',
     },
   });
