@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Profile1 from '../Images/Profile1.jpg';
 import '../styles/header.css';
 
@@ -7,8 +6,7 @@ function CoverPage() {
     return(
         
         <div className='container'>
-            <img 
-                //src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-goose.jpg"
+            <img className='profile'
                 src={Profile1}
                 alt="Profile"
                 />
